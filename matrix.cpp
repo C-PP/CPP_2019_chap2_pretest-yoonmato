@@ -6,12 +6,12 @@
 
 void random_walk(int(*a)[COLS], int rows);
 void show(int *a, int rows, int cols);
-
+//test
 int main(void)
 {
 	int A[ROWS][COLS];
 
-	random_walk(A, ROWS); /// 
+	random_walk(A, ROWS); /// test
 
 	printf("Matrix A:");
 	show((int *)A, ROWS, COLS);
